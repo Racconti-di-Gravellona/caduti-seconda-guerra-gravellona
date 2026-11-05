@@ -201,14 +201,15 @@
     "note": "«Baratti Primo» fra i dispersi colliani (sull'immagine della pagina: non «Baralti» come negli appunti preliminari). Senza riscontro nella Banca dati Difesa."
   },
   {
-    "nome": "Clotilde Giovannina in Biscaldi",
-    "paternita": "non indicata",
-    "nato": "",
-    "morte": "",
+    "nome": "Giannini Clotilde in Biscaldi",
+    "paternita": "Antonio",
+    "nato": "24/12/1903, Tornaco (NO)",
+    "morte": "24/04/1945, Bergen-Belsen (Germania)",
     "esito": "deportata",
     "in_colli": true,
-    "stato": "da confermare",
-    "note": "Unica donna dell'elenco colliano: «deportata in Germania». Secondo le informazioni di famiglia, era originaria di Tornaco (NO) o Tromello (PV) e fu deportata dopo uno sciopero. Non è una caduta in combattimento ma una deportazione civile: cognome da nubile, data e scheda ANED da cercare."
+    "stato": "documentato",
+    "note": "Deportata civile a causa di uno sciopero. In Colli «Clotilde Giovannina in Biscaldi»: nata Giannini, di Antonio e Francesca Tessera, operaia tessile, viveva a Gravellona col marito Alfredo Biscaldi e un figlio; lavorava al calzificio Giudice di Cilavegna. Arrestata il 3 marzo 1944 in seguito allo sciopero alla fabbrica, con Camilla Campana, Luigina Cirini, Giovanni Maccaferri e Pietro Omodeo Zorini: castello di Vigevano, San Vittore (Milano, matricola 1552), Bergamo, Mauthausen (trasporto 38, 8 aprile 1944), Vienna, poi secondo il CICR Auschwitz e Bergen-Belsen. Morta il 24 aprile 1945, nove giorni dopo la liberazione del campo; probabilmente scambiata per ebrea (aveva un numero tatuato), fu seppellita nel cimitero ebraico. A Gravellona le è stata dedicata una pietra d'inciampo nel 2019. Fonte: ANED Pavia / Istituto storico della Resistenza, scheda «Giannini Clotilde», deportatipavesi.it.",
+    "fonte_esterna": "https://www.deportatipavesi.it/giannini-clotilde/"
   },
   {
     "nome": "Ambrosini Carlo",

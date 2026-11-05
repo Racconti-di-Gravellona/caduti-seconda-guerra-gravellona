@@ -86,7 +86,7 @@ ANNI = {}
 for r in ROWS:
     y = anno_di(r["morte"])
     ANNI[y] = ANNI.get(y, 0) + 1
-ANNI_ORDINE = [1940, 1941, 1942, 1943, 1944]
+ANNI_ORDINE = [1940, 1941, 1942, 1943, 1944, 1945]
 NON_DATATI = ANNI.get(None, 0)
 
 IN_COLLI = [r for r in ROWS if r["in_colli"]]
@@ -216,13 +216,14 @@ HTML = f"""<!doctype html>
     <li><strong>Travaglino Gaudenzio</strong>: cognome comune a Gravellona Lomellina, quindi la lista locale registra quasi certamente il residente; le schede Difesa lo fanno però nato a <strong>Gravellona Toce</strong> (VB), figlio di Fiorentino: l'iscrizione colliana si spiegherebbe con la residenza, ma serve il riscontro delle matricole.</li>
     <li><strong>Carnevale Mario</strong>: le schede Difesa parallele divergono sul giorno di nascita (29/10 vs 29/11) e sulla data di morte (31/01 vs 03/03/1943).</li>
     <li><strong>Ambrosini</strong> compare anche grafato «Ambrosioni».</li>
-    <li><strong>Clotilde Giovannina in Biscaldi</strong> non è una caduta in guerra ma una <strong>deportata civile</strong>: si cita come figura a parte, mai sotto l'intestazione «caduti in combattimento».</li>
+    <li><strong>Clotilde Giovannina in Biscaldi</strong> (in Colli) è <strong>Giannini Clotilde</strong>, nata a Tornaco (1903): deportata civile dopo lo sciopero del calzificio Giudice di Cilavegna, morta a Bergen-Belsen il 24 aprile 1945, nove giorni dopo la liberazione del campo; pietra d'inciampo a Gravellona nel 2019. Non è una caduta in guerra: si cita come figura a parte, mai sotto l'intestazione «caduti in combattimento». Scheda: <a href="https://www.deportatipavesi.it/giannini-clotilde/">deportatipavesi.it/giannini-clotilde</a>.</li>
   </ul>
 
   <h2 id="fonti">Fonti</h2>
   <ul>
     <li>Ernesto Colli, <em>Gravellona Lomellina nella sua storia</em>, Novara 1960, cap. «I Caduti per la Patria», p. 105 (lista «1940-1945 (2.a guerra mondiale)» e dispersi; letture fatte direttamente sull'immagine della pagina) e p. 106 (salme rimpatriate nel 1955).</li>
     <li>Ministero della Difesa, Banca dati dei Caduti e Dispersi 2.a guerra mondiale (SICAD): <a href="https://www.difesa.it/il-ministro/cadutiinguerra/secondaguerra/secondaguerra.html">difesa.it/il-ministro/cadutiinguerra/secondaguerra</a> (ricerca per luogo di nascita «Gravellona Lomellina», accesso novembre 2026). Trascrizione grezza in <a href="https://github.com/racconti-di-gravellona/caduti-seconda-guerra-gravellona/blob/main/difesa_grezzo.json">difesa_grezzo.json</a>.</li>
+    <li>ANED Sez. Pavia / Istituto storico della Resistenza Pavia, scheda «Giannini Clotilde»: <a href="https://www.deportatipavesi.it/giannini-clotilde/">deportatipavesi.it/giannini-clotilde</a> (accesso novembre 2026); bibliografia e documenti in scheda (San Vittore, ISTORECO PV fondi ANED, CICR, ITS Bad Arolsen).</li>
   </ul>
 
   <h2 id="contatti">Correzioni e contatti</h2>
