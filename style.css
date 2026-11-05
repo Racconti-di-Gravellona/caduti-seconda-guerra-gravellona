@@ -1,0 +1,102 @@
+:root{
+  --carta:#fdfbf5;
+  --inchiostro:#222;
+  --mattone:#8a2f2b;
+  --mattone-scuro:#6d2320;
+  --ocra:#c9a227;
+  --grigio:#555;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:var(--carta);
+  color:var(--inchiostro);
+  font:1.05em/1.6 Georgia,"Times New Roman",serif;
+}
+a{color:var(--mattone);text-underline-offset:2px}
+a:hover{color:var(--mattone-scuro)}
+a:focus-visible{outline:3px solid var(--ocra);outline-offset:2px}
+.wrap{max-width:46em;margin:0 auto;padding:0 1em}
+.site-header{
+  background:var(--mattone);
+  color:#fff;
+  border-bottom:4px solid var(--ocra);
+  padding:1.2em 0 .9em;
+}
+.site-header a{color:#fff;text-decoration:none}
+.brand{font-size:1.8em;line-height:1.1}
+.motto{margin:.2em 0 0;font-style:italic;opacity:.9;font-size:.95em}
+main{padding:1.5em 0 2em}
+h1{font-size:1.7em;line-height:1.2;margin:.2em 0 .5em}
+h2{margin-top:2em;border-bottom:1px solid #e5dcc8;padding-bottom:.2em;scroll-margin-top:1em}
+.lead{font-size:1.05em}
+table{
+  border-collapse:collapse;
+  width:100%;
+  margin:1em 0;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  font-size:.9em;
+}
+th,td{text-align:left;padding:.35em .5em;border-bottom:1px solid #eee5d0;vertical-align:top}
+th{background:#f6f0e2;font-weight:600}
+td.n,th.n{text-align:right;white-space:nowrap}
+.nota-metodo{font-size:.9em;color:var(--grigio);font-style:italic}
+
+/* Ricerca locale, nessun cookie */
+.cerca-caduti{margin:1.2em 0}
+.cerca-riga{display:flex;flex-wrap:wrap;gap:.45em;align-items:center}
+.cerca-riga label{
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  font-size:.85em;color:var(--grigio);
+}
+input[type="search"]{
+  font:inherit;padding:.3em .6em;border:1px solid #d8cdb4;border-radius:6px;
+  background:#fff;color:var(--inchiostro);max-width:100%;flex:1 1 14em;min-width:0;
+}
+select{
+  font:inherit;padding:.3em .5em;border:1px solid #d8cdb4;border-radius:6px;
+  background:#fff;color:var(--inchiostro);
+}
+.cerca-esito{
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  font-size:.85em;color:var(--grigio);margin:.5em 0;
+}
+.elenco-caduti{list-style:none;padding:0;margin:0}
+.elenco-caduti li{padding:.6em 0;border-bottom:1px solid #eee5d0}
+.elenco-caduti li[hidden]{display:none}
+.caduto-dettagli,.caduto-nota{
+  display:block;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  font-size:.82em;line-height:1.45;color:var(--grigio);margin-top:.15em;
+}
+.caduto-nota{font-style:italic;color:#777}
+.badge{
+  display:inline-block;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  font-size:.7em;line-height:1.4;padding:.05em .5em;border-radius:999px;
+  vertical-align:.12em;white-space:nowrap;
+}
+.badge-verifica{background:#f6e7c8;color:#7a5a12;border:1px solid #e3cf9e}
+.badge-fuori{background:#eee9df;color:#6b6354;border:1px solid #ddd4c2}
+.legenda{
+  font-size:.9em;color:var(--grigio);background:#f8f4e8;
+  border-left:3px solid var(--ocra);padding:.6em .8em;margin:1.2em 0;
+}
+.ultimo-aggiornamento{
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  font-size:.82em;color:var(--grigio);
+}
+
+.site-footer{
+  margin-top:3em;border-top:1px solid #e5dcc8;padding:1em 0 2em;
+  font-size:.85em;color:var(--grigio);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  text-align:center;
+}
+.site-footer p{margin:.4em 0}
+
+@media(max-width:480px){
+  .brand{font-size:1.5em}
+  h1{font-size:1.4em}
+  table{font-size:.82em}
+}

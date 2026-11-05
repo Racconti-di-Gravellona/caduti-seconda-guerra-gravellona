@@ -1,0 +1,323 @@
+[
+  {
+    "nome": "Chiesa Luigi",
+    "paternita": "non indicata",
+    "nato": "",
+    "morte": "",
+    "esito": "morto",
+    "in_colli": true,
+    "stato": "da confermare",
+    "note": "Nella lista colliana, senza riscontro (per ora) nella Banca dati Difesa del 2.a GM. Colli non dà grado né data: la lista va incrociata con fogli matricolari e lapide."
+  },
+  {
+    "nome": "Chiesa Angelo",
+    "paternita": "non indicata",
+    "nato": "",
+    "morte": "",
+    "esito": "morto",
+    "in_colli": true,
+    "stato": "da confermare",
+    "note": "Secondo Chiesa nella lista colliana, dopo Luigi."
+  },
+  {
+    "nome": "Curti Giuseppe",
+    "paternita": "Carlo",
+    "nato": "26/02/1915, Gravellona Lomellina",
+    "morte": "13/12/1940, Albania",
+    "esito": "morto",
+    "in_colli": true,
+    "stato": "documentato",
+    "note": "Caduto sul fronte albanese già a dicembre 1940. «Curti Gius.» in Colli.",
+    "difesa_ids": [768499]
+  },
+  {
+    "nome": "Vincenzi Origene",
+    "paternita": "non indicata",
+    "nato": "",
+    "morte": "",
+    "esito": "morto",
+    "in_colli": true,
+    "stato": "da confermare",
+    "note": "Nella lista colliana senza riscontro nella Banca dati Difesa; il nome personale («Origene») resta da confermare sull'immagine della pagina."
+  },
+  {
+    "nome": "Pizzarelli Mario",
+    "paternita": "non indicata",
+    "nato": "",
+    "morte": "",
+    "esito": "morto",
+    "in_colli": true,
+    "stato": "da confermare",
+    "note": "Nella lista colliana senza riscontro nella Banca dati Difesa."
+  },
+  {
+    "nome": "Biondi Eugenio",
+    "paternita": "non indicata",
+    "nato": "",
+    "morte": "",
+    "esito": "morto",
+    "in_colli": true,
+    "stato": "da confermare",
+    "note": "Nella lista colliana senza riscontro nella Banca dati Difesa."
+  },
+  {
+    "nome": "Cattaneo Giuseppe",
+    "paternita": "Pietro",
+    "nato": "02/10/1922, Gravellona Lomellina",
+    "morte": "09/09/1944, Italia",
+    "esito": "morto",
+    "in_colli": true,
+    "stato": "documentato",
+    "note": "Caduto in Italia dopo l'8 settembre 1943: il luogo preciso (e la parte combattuta o repubblicana) andano ricostruiti sul foglio matricolare. «Cattaneo Gius.» in Colli.",
+    "difesa_ids": [413318]
+  },
+  {
+    "nome": "Travaglino Gaudenzio",
+    "paternita": "Fiorentino",
+    "nato": "07/06/1925, Gravellona Toce (nella Banca dati Difesa)",
+    "morte": "25/07/1944, Germania (Repubblica Federale)",
+    "esito": "morto",
+    "in_colli": true,
+    "stato": "documentato",
+    "note": "Soldato, perito in Germania: la salma fu rimpatriata nel 1955 (Colli, p. 106). La Banca dati Difesa lo fa nato a Gravellona Toce (VB), figlio di Fiorentino, non Lomellina: omonimia (stesso nome e cognome) o iscrizione per residenza, da chiarire sulle matricole. «Travaglino Gaud.» in Colli.",
+    "difesa_ids": [700439]
+  },
+  {
+    "nome": "Moruzzi Alfredo",
+    "paternita": "non indicata",
+    "nato": "",
+    "morte": "",
+    "esito": "morto",
+    "in_colli": true,
+    "stato": "da confermare",
+    "note": "Nella lista colliana senza riscontro nella Banca dati Difesa."
+  },
+  {
+    "nome": "Pavesi Angelo",
+    "paternita": "non indicata",
+    "nato": "",
+    "morte": "",
+    "esito": "morto",
+    "in_colli": true,
+    "stato": "da confermare",
+    "note": "Nella lista colliana; di lui non c'è traccia nella Banca dati Difesa, che registra l'omonimo Cesare (fronte greco-albanese).",
+    "difesa_ids": []
+  },
+  {
+    "nome": "Pavesi Cesare",
+    "paternita": "Luigi",
+    "nato": "03/04/1913, Gravellona Lomellina",
+    "morte": "23/11/1943, Grecia",
+    "esito": "morto",
+    "in_colli": true,
+    "stato": "documentato",
+    "note": "Caporal maggiore, caduto sul fronte greco-albanese: la salma fu rimpatriata nel 1955 (Colli, p. 106).",
+    "difesa_ids": [619735]
+  },
+  {
+    "nome": "Carnevale Pietro",
+    "paternita": "Giacomo",
+    "nato": "27/07/1923, Gravellona Lomellina",
+    "morte": "30/12/1943, Germania (Repubblica Federale)",
+    "esito": "morto",
+    "in_colli": true,
+    "stato": "documentato",
+    "note": "Caporale, morto in Germania dopo l'8 settembre 1943 (interno militare italiano o deportato, da definire): la salma fu rimpatriata nel 1955 (Colli, p. 106). «Piero Carnevale» a p. 106.",
+    "difesa_ids": [410482]
+  },
+  {
+    "nome": "Colli Oreste",
+    "paternita": "Giovanni",
+    "nato": "29/08/1911, Gravellona Lomellina",
+    "morte": "29/03/1941, Albania",
+    "esito": "morto",
+    "in_colli": true,
+    "stato": "documentato",
+    "note": "Caduto sul fronte albanese nel marzo 1941.",
+    "difesa_ids": [763313]
+  },
+  {
+    "nome": "Milanesi Giovanni",
+    "paternita": "Carlo",
+    "nato": "01/09/1922, Gravellona Lomellina",
+    "morte": "20/08/1943, Russia",
+    "esito": "disperso",
+    "in_colli": true,
+    "stato": "documentato",
+    "note": "«Milanesi Giov.» fra i dispersi colliani; la Banca dati Difesa dà la data di morte sul fronte russo.",
+    "difesa_ids": [380578]
+  },
+  {
+    "nome": "Piccolini Alberto",
+    "paternita": "Stefano",
+    "nato": "06/01/1913, Gravellona Lomellina",
+    "morte": "02/12/1942 (teatro non indicato)",
+    "esito": "disperso",
+    "in_colli": true,
+    "stato": "documentato",
+    "note": "«Piccolini Alberto» fra i dispersi colliani; la Banca dati Difesa dà la data 02/12/1942 ma non il teatro.",
+    "difesa_ids": [837794]
+  },
+  {
+    "nome": "Bossi Giovanni",
+    "paternita": "non indicata",
+    "nato": "",
+    "morte": "",
+    "esito": "disperso",
+    "in_colli": true,
+    "stato": "da confermare",
+    "note": "«Bossi Giov.» fra i dispersi colliani, senza riscontro nella Banca dati Difesa."
+  },
+  {
+    "nome": "Romè Primo",
+    "paternita": "non indicata",
+    "nato": "19/09/1913, Gravellona Lomellina",
+    "morte": "01/01/1943, Russia",
+    "esito": "disperso",
+    "in_colli": true,
+    "stato": "documentato",
+    "note": "«Romè Primo» fra i dispersi colliani; nelle schede Difesa il cognome è grafato «Rome» (senza accento).",
+    "difesa_ids": [501818, 849550]
+  },
+  {
+    "nome": "Dellupi Osvaldo",
+    "paternita": "non indicata",
+    "nato": "02/03/1922, Gravellona Lomellina",
+    "morte": "01/12/1942, Russia",
+    "esito": "disperso",
+    "in_colli": true,
+    "stato": "documentato",
+    "note": "«Deluppi Osvaldo» in Colli: nella Banca dati Difesa il cognome è grafato «Dellupi» (verificare la forma corretta su matricola o lapide).",
+    "difesa_ids": [501815, 775024]
+  },
+  {
+    "nome": "Baratti Primo",
+    "paternita": "non indicata",
+    "nato": "",
+    "morte": "",
+    "esito": "disperso",
+    "in_colli": true,
+    "stato": "da confermare",
+    "note": "«Baratti Primo» fra i dispersi colliani (sull'immagine della pagina: non «Baralti» come negli appunti preliminari). Senza riscontro nella Banca dati Difesa."
+  },
+  {
+    "nome": "Clotilde Giovannina in Biscaldi",
+    "paternita": "non indicata",
+    "nato": "",
+    "morte": "",
+    "esito": "deportata",
+    "in_colli": true,
+    "stato": "da confermare",
+    "note": "Unica donna dell'elenco colliano: «deportata in Germania». Non è una caduta in combattimento ma una deportazione civile (o politica): cognome da nubile, data e scheda ANED da cercare."
+  },
+  {
+    "nome": "Ambrosini Carlo",
+    "paternita": "Luigi",
+    "nato": "31/01/1915, Gravellona Lomellina",
+    "morte": "22/09/1943, Grecia",
+    "esito": "morto",
+    "in_colli": false,
+    "stato": "documentato",
+    "note": "Non nella lista colliana. Nelle schede Difesa compare anche grafato «Ambrosioni». Morto in Grecia dopo l'armistizio.",
+    "difesa_ids": [440592, 1406235]
+  },
+  {
+    "nome": "Baratto Carlo",
+    "paternita": "Giuseppe",
+    "nato": "05/01/1922, Gravellona Lomellina",
+    "morte": "01/12/1942, Russia",
+    "esito": "morto",
+    "in_colli": false,
+    "stato": "documentato",
+    "note": "Non nella lista colliana. Una scheda Difesa registra solo la dispersione, l'altra (parallela) riporta data 01/12/1942 e teatro Russia.",
+    "difesa_ids": [422146, 734864]
+  },
+  {
+    "nome": "Bellazzi Antonio",
+    "paternita": "Giovanni",
+    "nato": "02/09/1908, Gravellona Lomellina",
+    "morte": "25/07/1943, Russia",
+    "esito": "morto",
+    "in_colli": false,
+    "stato": "documentato",
+    "note": "Non nella lista colliana.",
+    "difesa_ids": [737013]
+  },
+  {
+    "nome": "Carnevale Mario",
+    "paternita": "non indicata",
+    "nato": "29/10/1907 (nella Banca dati Difesa anche 29/11/1907), Gravellona Lomellina",
+    "morte": "31/01/1943 (nella Banca dati Difesa anche 03/03/1943), Russia",
+    "esito": "morto",
+    "in_colli": false,
+    "stato": "documentato",
+    "note": "Non nella lista colliana. Le due schede Difesa divergono su giorno di nascita e data di morte: da verificare sul foglio matricolare.",
+    "difesa_ids": [501814, 754237, 1454102]
+  },
+  {
+    "nome": "Demarchi Aldo",
+    "paternita": "Pietro",
+    "nato": "27/09/1921, Gravellona Lomellina",
+    "morte": "20/02/1943, Russia",
+    "esito": "morto",
+    "in_colli": false,
+    "stato": "documentato",
+    "note": "Non nella lista colliana.",
+    "difesa_ids": [438241]
+  },
+  {
+    "nome": "Galletti Luigi",
+    "paternita": "non indicata",
+    "nato": "17/12/1922, Gravellona Lomellina",
+    "morte": "21/12/1942, Russia",
+    "esito": "morto",
+    "in_colli": false,
+    "stato": "documentato",
+    "note": "Non nella lista colliana.",
+    "difesa_ids": [501816, 789913]
+  },
+  {
+    "nome": "Maffei Antonio",
+    "paternita": "non indicata",
+    "nato": "23/08/1910, Gravellona Lomellina",
+    "morte": "25/01/1943, Russia",
+    "esito": "morto",
+    "in_colli": false,
+    "stato": "documentato",
+    "note": "Non nella lista colliana.",
+    "difesa_ids": [501817, 808651]
+  },
+  {
+    "nome": "Massolino Alberto Mario",
+    "paternita": "Angelo",
+    "nato": "10/05/1919, Gravellona Lomellina",
+    "morte": "28/12/1941, Ucraina",
+    "esito": "morto",
+    "in_colli": false,
+    "stato": "documentato",
+    "note": "Non nella lista colliana; caduto in Ucraina (ARMIR) alla fine del 1941.",
+    "difesa_ids": [370365]
+  },
+  {
+    "nome": "Moro Guido",
+    "paternita": "Ambrogio",
+    "nato": "05/04/1912, Gravellona Lomellina",
+    "morte": "18/01/1944, Germania (Repubblica Federale)",
+    "esito": "morto",
+    "in_colli": false,
+    "stato": "documentato",
+    "note": "Non nella lista colliana; morto in Germania dopo l'8 settembre 1943 (interno militare o deportato, da definire).",
+    "difesa_ids": [390958]
+  },
+  {
+    "nome": "Truffa Carlo",
+    "paternita": "Paolo",
+    "nato": "29/08/1902, Gravellona Lomellina",
+    "morte": "18/02/1941, Albania",
+    "esito": "morto",
+    "in_colli": false,
+    "stato": "documentato",
+    "note": "Non nella lista colliana; il più anziano del gruppo (classe 1902), caduto sul fronte albanese nel febbraio 1941.",
+    "difesa_ids": [870386]
+  }
+]
