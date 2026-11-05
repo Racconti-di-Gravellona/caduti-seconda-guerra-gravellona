@@ -213,7 +213,7 @@ HTML = f"""<!doctype html>
   <h2 id="correzioni">Correzioni e avvertenze</h2>
   <ul>
     <li><strong>Dellupi</strong> (Banca dati Difesa), non «Deluppi»; <strong>Baratti</strong> Primo (lettura diretta sull'immagine della pagina), non «Baralti».</li>
-    <li><strong>Travaglino Gaudenzio</strong> risulta nato a <strong>Gravellona Toce</strong> (VB), figlio di Fiorentino: omonimia o iscrizione per residenza, da chiarire sulle matricole prima di dare per buona la lettura colliana.</li>
+    <li><strong>Travaglino Gaudenzio</strong>: cognome comune a Gravellona Lomellina, quindi la lista locale registra quasi certamente il residente; le schede Difesa lo fanno però nato a <strong>Gravellona Toce</strong> (VB), figlio di Fiorentino: l'iscrizione colliana si spiegherebbe con la residenza, ma serve il riscontro delle matricole.</li>
     <li><strong>Carnevale Mario</strong>: le schede Difesa parallele divergono sul giorno di nascita (29/10 vs 29/11) e sulla data di morte (31/01 vs 03/03/1943).</li>
     <li><strong>Ambrosini</strong> compare anche grafato «Ambrosioni».</li>
     <li><strong>Clotilde Giovannina in Biscaldi</strong> non è una caduta in guerra ma una <strong>deportata civile</strong>: si cita come figura a parte, mai sotto l'intestazione «caduti in combattimento».</li>
