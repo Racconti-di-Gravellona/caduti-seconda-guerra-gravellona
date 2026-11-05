@@ -107,6 +107,8 @@ def riga_tabella(label, n, totale):
 
 def li(r):
     badges = []
+    if r.get("badge"):
+        badges.append(f'<span class="badge badge-fuori">{html.escape(r["badge"])}</span>')
     if r["stato"] == "da confermare":
         badges.append('<span class="badge badge-verifica">senza riscontro nella Banca dati Difesa</span>')
     if not r["in_colli"]:
