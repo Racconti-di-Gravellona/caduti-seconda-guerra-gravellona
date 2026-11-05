@@ -185,6 +185,8 @@ HTML = f"""<!doctype html>
     </tbody>
   </table>
 
+  <p class="nota-metodo">Le doppie schede Difesa di Baratto, Dellupi, Romè, Carnevale Mario, Galletti e Maffei (una con la data e senza luogo, una con nazione «Russia» e senza data) indicano un <strong>disperso del fronte russo la cui morte fu riconosciuta con data convenzionale</strong> (il 1.o del mese: 01/12/1942, 01/01/1943). La data non è quella del decesso: se fu prigionia o morte nella ritirata lo dice solo il fascicolo matricolare.</p>
+
   <p><strong>La Russia/Ucraina è il teatro maggiore</strong> ({TEATRI.get("Russia/Ucraina", 0)} su {N}): il fronte russo pesa quanto tutti gli altri teatri noti messi insieme. Seguono Albania/Grecia ({TEATRI.get("Albania/Grecia", 0)}) e Germania ({TEATRI.get("Germania", 0)}); {TEATRI.get("Italia", 0)} muore in Italia nel 1944, in circostanze ancora da ricostruire.</p>
 
   <h2 id="elenco">L'elenco</h2>
