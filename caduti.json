@@ -2,22 +2,24 @@
   {
     "nome": "Chiesa Luigi",
     "paternita": "non indicata",
-    "nato": "",
+    "nato": "1916 (classe, dalla lapide)",
     "morte": "",
     "esito": "morto",
     "in_colli": true,
     "stato": "da confermare",
-    "note": "Nella lista colliana, senza riscontro (per ora) nella Banca dati Difesa del 2.a GM. Colli non dà grado né data: la lista va incrociata con fogli matricolari e lapide."
+    "note": "Nella lista colliana, senza riscontro (per ora) nella Banca dati Difesa del 2.a GM. Colli non dà grado né data: la lista va incrociata con fogli matricolari e lapide. Classe 1916 incisa sulla lapide del monumento.",
+    "in_lapide": true
   },
   {
     "nome": "Chiesa Angelo",
     "paternita": "non indicata",
-    "nato": "",
+    "nato": "1909 (classe, dalla lapide)",
     "morte": "",
     "esito": "morto",
     "in_colli": true,
     "stato": "da confermare",
-    "note": "Secondo Chiesa nella lista colliana, dopo Luigi."
+    "note": "Secondo Chiesa nella lista colliana, dopo Luigi. Classe 1909 incisa sulla lapide del monumento.",
+    "in_lapide": true
   },
   {
     "nome": "Curti Giuseppe",
@@ -28,37 +30,43 @@
     "in_colli": true,
     "stato": "documentato",
     "note": "Caduto sul fronte albanese già a dicembre 1940. «Curti Gius.» in Colli.",
-    "difesa_ids": [768499]
+    "difesa_ids": [
+      768499
+    ],
+    "in_lapide": true
   },
   {
     "nome": "Vincenzi Origene",
     "paternita": "non indicata",
-    "nato": "",
+    "nato": "1914 (classe, dalla lapide)",
     "morte": "",
     "esito": "morto",
     "in_colli": true,
     "stato": "da confermare",
-    "note": "Nella lista colliana senza riscontro nella Banca dati Difesa; il nome personale («Origene») resta da confermare sull'immagine della pagina."
+    "note": "Nella lista colliana senza riscontro nella Banca dati Difesa; il nome personale («Origene») resta da confermare sull'immagine della pagina. Classe 1914 incisa sulla lapide del monumento.",
+    "in_lapide": true
   },
   {
     "nome": "Pizzarelli Mario",
     "paternita": "non indicata",
-    "nato": "",
+    "nato": "1903 (classe, dalla lapide)",
     "morte": "",
     "esito": "morto",
     "in_colli": true,
     "stato": "da confermare",
-    "note": "Nella lista colliana senza riscontro nella Banca dati Difesa."
+    "note": "Nella lista colliana senza riscontro nella Banca dati Difesa. Classe 1903 incisa sulla lapide del monumento.",
+    "in_lapide": true
   },
   {
     "nome": "Biondi Eugenio",
     "paternita": "non indicata",
-    "nato": "",
+    "nato": "1911 (classe, dalla lapide)",
     "morte": "",
     "esito": "morto",
     "in_colli": true,
     "stato": "da confermare",
-    "note": "Nella lista colliana senza riscontro nella Banca dati Difesa."
+    "note": "Nella lista colliana senza riscontro nella Banca dati Difesa. Classe 1911 incisa sulla lapide del monumento.",
+    "in_lapide": true
   },
   {
     "nome": "Cattaneo Giuseppe",
@@ -69,7 +77,10 @@
     "in_colli": true,
     "stato": "documentato",
     "note": "Caduto in Italia dopo l'8 settembre 1943: il luogo preciso (e la parte combattuta o repubblicana) andano ricostruiti sul foglio matricolare. «Cattaneo Gius.» in Colli.",
-    "difesa_ids": [413318]
+    "difesa_ids": [
+      413318
+    ],
+    "in_lapide": true
   },
   {
     "nome": "Travaglino Gaudenzio",
@@ -80,28 +91,33 @@
     "in_colli": true,
     "stato": "documentato",
     "note": "Soldato, perito in Germania: la salma fu rimpatriata nel 1955 (Colli, p. 106). Il cognome Travaglino è comune a Gravellona Lomellina (ricorre anche nella Grande Guerra): la lista colliana registra quindi quasi certamente il residente. La Banca dati Difesa lo fa però nato a Gravellona Toce (VB), figlio di Fiorentino e Rossi Cesira: se è lo stesso uomo, l'iscrizione colliana si spiega con la residenza. Da chiarire sulle matricole. «Travaglino Gaud.» in Colli.",
-    "difesa_ids": [700439]
+    "difesa_ids": [
+      700439
+    ],
+    "in_lapide": true
   },
   {
     "nome": "Moruzzi Alfredo",
     "paternita": "non indicata",
-    "nato": "",
+    "nato": "1924 (classe, dalla lapide)",
     "morte": "",
     "esito": "morto",
     "in_colli": true,
     "stato": "da confermare",
-    "note": "Nella lista colliana senza riscontro nella Banca dati Difesa."
+    "note": "Nella lista colliana senza riscontro nella Banca dati Difesa. Classe 1924 incisa sulla lapide del monumento.",
+    "in_lapide": true
   },
   {
     "nome": "Pavesi Angelo",
     "paternita": "non indicata",
-    "nato": "",
+    "nato": "1922 (classe, dalla lapide)",
     "morte": "",
     "esito": "morto",
     "in_colli": true,
     "stato": "da confermare",
-    "note": "Nella lista colliana; di lui non c'è traccia nella Banca dati Difesa, che registra l'omonimo Cesare (fronte greco-albanese).",
-    "difesa_ids": []
+    "note": "Nella lista colliana; di lui non c'è traccia nella Banca dati Difesa, che registra l'omonimo Cesare (fronte greco-albanese). Classe 1922 incisa sulla lapide del monumento.",
+    "difesa_ids": [],
+    "in_lapide": true
   },
   {
     "nome": "Pavesi Cesare",
@@ -111,8 +127,11 @@
     "esito": "morto",
     "in_colli": true,
     "stato": "documentato",
-    "note": "Caporal maggiore, caduto sul fronte greco-albanese: la salma fu rimpatriata nel 1955 (Colli, p. 106).",
-    "difesa_ids": [619735]
+    "note": "Caporal maggiore, caduto sul fronte greco-albanese: la salma fu rimpatriata nel 1955 (Colli, p. 106). La lapide lo dà classe 1910, la Banca dati Difesa nato il 3/4/1913: la data anagrafica prevale.",
+    "difesa_ids": [
+      619735
+    ],
+    "in_lapide": true
   },
   {
     "nome": "Carnevale Pietro",
@@ -123,7 +142,10 @@
     "in_colli": true,
     "stato": "documentato",
     "note": "Caporale, morto in Germania dopo l'8 settembre 1943 (interno militare italiano o deportato, da definire): la salma fu rimpatriata nel 1955 (Colli, p. 106). «Piero Carnevale» a p. 106.",
-    "difesa_ids": [410482]
+    "difesa_ids": [
+      410482
+    ],
+    "in_lapide": true
   },
   {
     "nome": "Colli Oreste",
@@ -134,7 +156,10 @@
     "in_colli": true,
     "stato": "documentato",
     "note": "Caduto sul fronte albanese nel marzo 1941.",
-    "difesa_ids": [763313]
+    "difesa_ids": [
+      763313
+    ],
+    "in_lapide": true
   },
   {
     "nome": "Milanesi Giovanni",
@@ -145,7 +170,10 @@
     "in_colli": true,
     "stato": "documentato",
     "note": "«Milanesi Giov.» fra i dispersi colliani; la Banca dati Difesa dà la data di morte sul fronte russo.",
-    "difesa_ids": [380578]
+    "difesa_ids": [
+      380578
+    ],
+    "in_lapide": true
   },
   {
     "nome": "Piccolini Alberto",
@@ -156,17 +184,21 @@
     "in_colli": true,
     "stato": "documentato",
     "note": "«Piccolini Alberto» fra i dispersi colliani; la Banca dati Difesa dà la data 02/12/1942 ma non il teatro.",
-    "difesa_ids": [837794]
+    "difesa_ids": [
+      837794
+    ],
+    "in_lapide": true
   },
   {
     "nome": "Bossi Giovanni",
     "paternita": "non indicata",
-    "nato": "",
+    "nato": "1916 (classe, dalla lapide)",
     "morte": "",
     "esito": "disperso",
     "in_colli": true,
     "stato": "da confermare",
-    "note": "«Bossi Giov.» fra i dispersi colliani, senza riscontro nella Banca dati Difesa."
+    "note": "«Bossi Giov.» fra i dispersi colliani, senza riscontro nella Banca dati Difesa. Classe 1916 incisa sulla lapide del monumento.",
+    "in_lapide": true
   },
   {
     "nome": "Romè Primo",
@@ -177,7 +209,11 @@
     "in_colli": true,
     "stato": "documentato",
     "note": "«Romè Primo» fra i dispersi colliani; nelle schede Difesa il cognome è grafato «Rome» (senza accento).",
-    "difesa_ids": [501818, 849550]
+    "difesa_ids": [
+      501818,
+      849550
+    ],
+    "in_lapide": true
   },
   {
     "nome": "Dellupi Osvaldo",
@@ -188,7 +224,11 @@
     "in_colli": true,
     "stato": "documentato",
     "note": "«Deluppi Osvaldo» in Colli: nella Banca dati Difesa il cognome è grafato «Dellupi» (verificare la forma corretta su matricola o lapide).",
-    "difesa_ids": [501815, 775024]
+    "difesa_ids": [
+      501815,
+      775024
+    ],
+    "in_lapide": false
   },
   {
     "nome": "Baratti Primo",
@@ -198,7 +238,8 @@
     "esito": "disperso",
     "in_colli": true,
     "stato": "da confermare",
-    "note": "«Baratti Primo» fra i dispersi colliani (sull'immagine della pagina: non «Baralti» come negli appunti preliminari). Senza riscontro nella Banca dati Difesa."
+    "note": "«Baratti Primo» fra i dispersi colliani (sull'immagine della pagina: non «Baralti» come negli appunti preliminari). Senza riscontro nella Banca dati Difesa.",
+    "in_lapide": false
   },
   {
     "nome": "Giannini Clotilde in Biscaldi",
@@ -208,8 +249,9 @@
     "esito": "deportata",
     "in_colli": true,
     "stato": "documentato",
-    "note": "Deportata civile a causa di uno sciopero. In Colli «Clotilde Giovannina in Biscaldi»: nata Giannini, di Antonio e Francesca Tessera, operaia tessile, viveva a Gravellona col marito Alfredo Biscaldi e un figlio; lavorava al calzificio Giudice di Cilavegna. Arrestata il 3 marzo 1944 in seguito allo sciopero alla fabbrica, con Camilla Campana, Luigina Cirini, Giovanni Maccaferri e Pietro Omodeo Zorini: castello di Vigevano, San Vittore (Milano, matricola 1552), Bergamo, Mauthausen (trasporto 38, 8 aprile 1944), Vienna, poi secondo il CICR Auschwitz e Bergen-Belsen. Morta il 24 aprile 1945, nove giorni dopo la liberazione del campo; probabilmente scambiata per ebrea (aveva un numero tatuato), fu seppellita nel cimitero ebraico. A Gravellona le è stata dedicata una pietra d'inciampo nel 2019. Scheda completa in ANED Sez. Pavia.",
-    "badge": "ANED"
+    "note": "Deportata civile a causa di uno sciopero. In Colli «Clotilde Giovannina in Biscaldi»: nata Giannini, di Antonio e Francesca Tessera, operaia tessile, viveva a Gravellona col marito Alfredo Biscaldi e un figlio; lavorava al calzificio Giudice di Cilavegna. Arrestata il 3 marzo 1944 in seguito allo sciopero alla fabbrica, con Camilla Campana, Luigina Cirini, Giovanni Maccaferri e Pietro Omodeo Zorini: castello di Vigevano, San Vittore (Milano, matricola 1552), Bergamo, Mauthausen (trasporto 38, 8 aprile 1944), Vienna, poi secondo il CICR Auschwitz e Bergen-Belsen. Morta il 24 aprile 1945, nove giorni dopo la liberazione del campo; probabilmente scambiata per ebrea (aveva un numero tatuato), fu seppellita nel cimitero ebraico. A Gravellona le è stata dedicata una pietra d'inciampo nel 2019. Scheda completa in ANED Sez. Pavia. La lapide a lei dedicata (Pietre della Memoria, 185250) porta le date 24-12-1903 - 27-7-1945; la scheda ANED/ITS dà 24/4/1945.",
+    "badge": "ANED",
+    "in_lapide": false
   },
   {
     "nome": "Ambrosini Carlo",
@@ -220,7 +262,11 @@
     "in_colli": false,
     "stato": "documentato",
     "note": "Non nella lista colliana. Nelle schede Difesa compare anche grafato «Ambrosioni». Morto in Grecia dopo l'armistizio.",
-    "difesa_ids": [440592, 1406235]
+    "difesa_ids": [
+      440592,
+      1406235
+    ],
+    "in_lapide": false
   },
   {
     "nome": "Baratto Carlo",
@@ -231,7 +277,11 @@
     "in_colli": false,
     "stato": "documentato",
     "note": "Non nella lista colliana. Una scheda Difesa registra solo la dispersione, l'altra (parallela) riporta data 01/12/1942 e teatro Russia.",
-    "difesa_ids": [422146, 734864]
+    "difesa_ids": [
+      422146,
+      734864
+    ],
+    "in_lapide": false
   },
   {
     "nome": "Bellazzi Antonio",
@@ -242,7 +292,10 @@
     "in_colli": false,
     "stato": "documentato",
     "note": "Non nella lista colliana.",
-    "difesa_ids": [737013]
+    "difesa_ids": [
+      737013
+    ],
+    "in_lapide": false
   },
   {
     "nome": "Carnevale Mario",
@@ -253,7 +306,12 @@
     "in_colli": false,
     "stato": "documentato",
     "note": "Non nella lista colliana. Le due schede Difesa divergono su giorno di nascita e data di morte: da verificare sul foglio matricolare.",
-    "difesa_ids": [501814, 754237, 1454102]
+    "difesa_ids": [
+      501814,
+      754237,
+      1454102
+    ],
+    "in_lapide": false
   },
   {
     "nome": "Demarchi Aldo",
@@ -264,7 +322,10 @@
     "in_colli": false,
     "stato": "documentato",
     "note": "Non nella lista colliana.",
-    "difesa_ids": [438241]
+    "difesa_ids": [
+      438241
+    ],
+    "in_lapide": false
   },
   {
     "nome": "Galletti Luigi",
@@ -275,7 +336,11 @@
     "in_colli": false,
     "stato": "documentato",
     "note": "Non nella lista colliana.",
-    "difesa_ids": [501816, 789913]
+    "difesa_ids": [
+      501816,
+      789913
+    ],
+    "in_lapide": false
   },
   {
     "nome": "Maffei Antonio",
@@ -286,7 +351,11 @@
     "in_colli": false,
     "stato": "documentato",
     "note": "Non nella lista colliana.",
-    "difesa_ids": [501817, 808651]
+    "difesa_ids": [
+      501817,
+      808651
+    ],
+    "in_lapide": false
   },
   {
     "nome": "Massolino Alberto Mario",
@@ -297,7 +366,10 @@
     "in_colli": false,
     "stato": "documentato",
     "note": "Non nella lista colliana; caduto in Ucraina (ARMIR) alla fine del 1941.",
-    "difesa_ids": [370365]
+    "difesa_ids": [
+      370365
+    ],
+    "in_lapide": false
   },
   {
     "nome": "Moro Guido",
@@ -308,7 +380,10 @@
     "in_colli": false,
     "stato": "documentato",
     "note": "Non nella lista colliana; morto in Germania dopo l'8 settembre 1943 (interno militare o deportato, da definire).",
-    "difesa_ids": [390958]
+    "difesa_ids": [
+      390958
+    ],
+    "in_lapide": false
   },
   {
     "nome": "Truffa Carlo",
@@ -319,6 +394,9 @@
     "in_colli": false,
     "stato": "documentato",
     "note": "Non nella lista colliana; il più anziano del gruppo (classe 1902), caduto sul fronte albanese nel febbraio 1941.",
-    "difesa_ids": [870386]
+    "difesa_ids": [
+      870386
+    ],
+    "in_lapide": false
   }
 ]

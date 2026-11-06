@@ -109,6 +109,8 @@ def li(r):
     badges = []
     if r.get("badge"):
         badges.append(f'<span class="badge badge-fuori">{html.escape(r["badge"])}</span>')
+    if r.get("in_lapide") is False:
+        badges.append('<span class="badge badge-fuori">non nella lapide</span>')
     if r["stato"] == "da confermare":
         badges.append('<span class="badge badge-verifica">senza riscontro nella Banca dati Difesa</span>')
     if not r["in_colli"]:
@@ -208,7 +210,9 @@ HTML = f"""<!doctype html>
     <p id="nessun-caduto" hidden>Nessun risultato.</p>
   </div>
 
-  <p class="legenda"><strong>documentato</strong>: dati incrociati tra Colli 1960 e Banca dati della Difesa (paternità, date, teatro). <strong>senza riscontro</strong>: il nome è nella lista di Colli ma non è stato trovato (per ora) nella Banca dati Difesa: la lista locale registra i <em>residenti</em>, la banca dati i <em>nati</em> a Gravellona, quindi i due elenchi non vengono a coincidere per costruzione. <strong>non nella lista di Colli</strong>: uomo nato a Gravellona presente nella Banca dati Difesa ma assente dall'elenco locale: potrebbe essere famiglia emigrata prima dell'elenco.</p>
+  <p class="legenda"><strong>documentato</strong>: dati incrociati tra Colli 1960, lapide 1940-45 e Banca dati della Difesa. <strong>senza riscontro</strong>: il nome è nella lista di Colli ma non è stato trovato (per ora) nella Banca dati Difesa: la lista locale registra i <em>residenti</em>, la banca dati i <em>nati</em> a Gravellona, quindi i due elenchi non vengono a coincidere per costruzione. <strong>non nella lista di Colli</strong>: uomo nato a Gravellona presente nella Banca dati Difesa ma assente dall'elenco locale. <strong>non nella lapide</strong>: assente dalla lastra 1940-45 del monumento (ha una targa propria, come Clotilde, oppure è noto da altre fonti).</p>
+
+  <p>La <strong>lapide del 1940-45</strong> (lastra laterale del monumento di piazza Delucca, fotografata e trascritta da Pietre della Memoria) elenca <strong>17 nomi</strong>: 13 caduti e 4 dispersi (Romè, Milanesi, Bossi, Piccolini). Rispetto a essa, la lista di Colli aggiunge <strong>Dellupi, Baratti e Giannini Clotilde</strong> (quest'ultima con una targa a sé, datata 24-12-1903 – 27-7-1945); la Banca dati Difesa aggiunge i {NFUO} nati a Gravellona. La lapide riporta anche le <strong>classi di nascita</strong>, che colmano in parte i vuoti anagrafici dei senza riscontro.</p>
 
   <h2 id="colli">Perché i due elenchi non coincidono</h2>
   <p>Colli conta {NCOLA} nominativi (13 «caduti», 6 dispersi, 1 deportata); la Banca dati Difesa registra {NDB} persone nate a Gravellona. Il confronto completa {DOC_COLLI} nominativi colliani con paternità, date e teatro, e porta in luce <strong>{NFUO} nomi in più</strong> — Ambrosini, Baratto, Bellazzi, Carnevale Mario, Demarchi, Galletti, Maffei, Massolino, Moro Guido, Truffa — assenti dalla lista locale. Come per la Grande Guerra, la spiegazione più semplice è la <strong><em>residenza</em></strong>: la lista colliana sembra elencare chi abitava a Gravellona al momento del censimento dei caduti, la banca dati chi vi era <em>nato</em>; con il tempo le due nozioni potevano non coincidere più, per emigrazione della famiglia.</p>
@@ -217,16 +221,19 @@ HTML = f"""<!doctype html>
   <h2 id="correzioni">Correzioni e avvertenze</h2>
   <ul>
     <li><strong>Dellupi</strong> (Banca dati Difesa), non «Deluppi»; <strong>Baratti</strong> Primo (lettura diretta sull'immagine della pagina), non «Baralti».</li>
-    <li><strong>Travaglino Gaudenzio</strong>: cognome comune a Gravellona Lomellina, quindi la lista locale registra quasi certamente il residente; le schede Difesa lo fanno però nato a <strong>Gravellona Toce</strong> (VB), figlio di Fiorentino: l'iscrizione colliana si spiegherebbe con la residenza, ma serve il riscontro delle matricole.</li>
+    <li><strong>Pavesi Cesare</strong>: la lapide lo dà classe 1910, la Banca dati Difesa nato il 3/4/1913; prevale la data anagrafica.</li>
+    <li><strong>Giannini Clotilde</strong> (in Colli «Clotilde Giovannina in Biscaldi»): nata a Tornaco nel 1903, deportata civile dopo lo sciopero del calzificio Giudice di Cilavegna, morta a Bergen-Belsen; pietra d'inciampo a Gravellona nel 2019. La targa a lei dedicata porta <strong>24-12-1903 – 27-7-1945</strong>, la scheda ANED/ITS dà <strong>24/4/1945</strong>: si citano entrambe le date. Non è una caduta in guerra: si tiene a parte, mai sotto «caduti in combattimento». Scheda: <a href="https://www.deportatipavesi.it/giannini-clotilde/">deportatipavesi.it/giannini-clotilde</a>.</li>
+    <li><strong>Travaglino Gaudenzio</strong>: l'Albo Caduti RSI lo registra come alpino della Divisione Littorio, 4° Reggimento alpini «Sennelager», morto il 25/7/1944 a Paderborn (Bassa Sassonia) per incidente — stessa data e luogo della Banca dati Difesa, che però lo fa nato a Gravellona Toce. Il cognome è comune a Gravellona Lomellina: l'iscrizione colliana si spiega con la residenza, da confermare sulla matricola.</li>
     <li><strong>Carnevale Mario</strong>: le schede Difesa parallele divergono sul giorno di nascita (29/10 vs 29/11) e sulla data di morte (31/01 vs 03/03/1943).</li>
     <li><strong>Ambrosini</strong> compare anche grafato «Ambrosioni».</li>
-    <li><strong>Clotilde Giovannina in Biscaldi</strong> (in Colli) è <strong>Giannini Clotilde</strong>, nata a Tornaco (1903): deportata civile dopo lo sciopero del calzificio Giudice di Cilavegna, morta a Bergen-Belsen il 24 aprile 1945, nove giorni dopo la liberazione del campo; pietra d'inciampo a Gravellona nel 2019. Non è una caduta in guerra: si cita come figura a parte, mai sotto l'intestazione «caduti in combattimento». Scheda: <a href="https://www.deportatipavesi.it/giannini-clotilde/">deportatipavesi.it/giannini-clotilde</a>.</li>
   </ul>
 
   <h2 id="fonti">Fonti</h2>
   <ul>
     <li>Ernesto Colli, <em>Gravellona Lomellina nella sua storia</em>, Novara 1960, cap. «I Caduti per la Patria», p. 105 (lista «1940-1945 (2.a guerra mondiale)» e dispersi; letture fatte direttamente sull'immagine della pagina) e p. 106 (salme rimpatriate nel 1955).</li>
     <li>Ministero della Difesa, Banca dati dei Caduti e Dispersi 2.a guerra mondiale (SICAD): <a href="https://www.difesa.it/il-ministro/cadutiinguerra/secondaguerra/secondaguerra.html">difesa.it/il-ministro/cadutiinguerra/secondaguerra</a> (ricerca per luogo di nascita «Gravellona Lomellina», accesso novembre 2026). Trascrizione grezza in <a href="https://github.com/racconti-di-gravellona/caduti-seconda-guerra-gravellona/blob/main/difesa_grezzo.json">difesa_grezzo.json</a>.</li>
+    <li>Pietre della Memoria, scheda 185250 «Monumento ai Caduti di Gravellona Lomellina» (foto e trascrizione delle iscrizioni, a cura di ISIS Omodeo Mortara, 2021): <a href="https://www.pietredellamemoria.it/pietre/monumento-ai-caduti-di-gravellona-lomellina/">pietredellamemoria.it</a> (accesso novembre 2026). Da questa trascrizione vengono le classi di nascita dei nominativi senza data.</li>
+    <li>Fondazione RSI, <em>Albo dei Caduti e Dispersi della RSI</em>, ed. 2019 (PDF): <a href="https://www.fondazionersi.org/caduti/AlboCaduti2019.pdf">fondazionersi.org</a> — voce Travaglino Gaudenzio.</li>
     <li>ANED Sez. Pavia / Istituto storico della Resistenza Pavia, scheda «Giannini Clotilde»: <a href="https://www.deportatipavesi.it/giannini-clotilde/">deportatipavesi.it/giannini-clotilde</a> (accesso novembre 2026); bibliografia e documenti in scheda (San Vittore, ISTORECO PV fondi ANED, CICR, ITS Bad Arolsen).</li>
   </ul>
 
