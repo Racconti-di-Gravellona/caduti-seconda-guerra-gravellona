@@ -15,7 +15,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).parent
 ROWS = json.loads((ROOT / "caduti.json").read_text(encoding="utf-8"))
-EMAIL = "archivio-festadellarte@outlook.it"
+EMAIL = "archivio.festadellarte@outlook.it"
 AGGIORNATO = "5 novembre 2026"
 
 
