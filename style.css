@@ -30,6 +30,19 @@ main{padding:1.5em 0 2em}
 h1{font-size:1.7em;line-height:1.2;margin:.2em 0 .5em}
 h2{margin-top:2em;border-bottom:1px solid #e5dcc8;padding-bottom:.2em;scroll-margin-top:1em}
 .lead{font-size:1.05em}
+.incipit{
+  border-left:3px solid var(--ocra);
+  padding-left:1.1em;
+  margin:0 0 1.8em;
+}
+.incipit p{margin:.7em 0}
+.incipit blockquote{
+  margin:1em 0;
+  padding:.1em 1em;
+  border-left:3px solid #e5dcc8;
+  color:var(--grigio);
+  font-style:italic;
+}
 table{
   border-collapse:collapse;
   width:100%;

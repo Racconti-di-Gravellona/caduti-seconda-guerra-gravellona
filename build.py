@@ -165,6 +165,27 @@ HTML = f"""<!doctype html>
 
 <main class="wrap">
   <h1>I gravellonesi della Seconda guerra mondiale</h1>
+
+  <section class="incipit">
+  <p>La Seconda Guerra Mondiale è stata un evento tragico per il nostro Paese.</p>
+
+  <p>Quando il conflitto, dopo varie provocazioni, deflagrò il 1 settembre 1939, l'Italia se ne tirò fuori con una scusa. Entrati poi in guerra, nel 1940, pensando di fare un facile bottino della Francia, ci trovammo quasi subito in difficoltà: perdemmo le due colonie, prima quella etiope (per la quale fummo sanzionati dalla Società delle Nazioni) e poi quella libica.</p>
+
+  <p>Mandammo i nostri connazionali in Albania e Grecia, anche lì con difficoltà, e poi nella famigerata campagna di Russia con l'ARMIR (leggetevi, se vi va, «Il Sergente nella Neve» di Mario Rigoni Stern): ci trovammo quasi subito in difficoltà anche noi, e quel facile bottino non lo fu affatto, a dire il vero. L'Italia fu poi teatro di aspri conflitti tra gli Alleati e i tedeschi, anche a causa di una geografia che male si prestava a una campagna militare.</p>
+
+  <p>Dopo l'8 settembre l'Italia fu divisa e di fatto divenne teatro di una guerra civile, tra partigiani e repubblichini. Gravellona faceva parte dell'RSI: eravamo passati da Stato alleato a Stato satellite della Germania, da controllare a forza, come la Repubblica di Vichy. Con tanto sforzo, comunque, il 25 Aprile 1945 Milano fu liberata, e di conseguenza anche noi. A Gravellona c'è ancora «via 26 Aprile»: si vede che erano in leggero ritardo.</p>
+
+  <p>Di questa sciagura pagarono un caro prezzo sia i civili, vittime di tanti bombardamenti (si veda, per esempio, il Monte Stella, parco nel Milanese realizzato con le macerie di quel tragico conflitto), sia i militari.</p>
+
+  <p>Questa piccola lista vuol ricordare i nostri compaesani che ci lasciarono in quello sciagurato conflitto. Ho fatto incrociare all'Intelligenza Artificiale (che scrive a dire il vero in maniera fin troppo asciutta di questo conflitto, ma ricordiamolo: è una macchina, alla fine) i dati dei vari registri online, delle foto della lapide e del libro di Don Ernesto Colli, <em>Gravellona Lomellina nella sua Storia</em> (1960), che, se volete, <a href="https://www.alzati.it/BassaNovarese/Gravellona%20Lomellina%20nella%20Storia/Gravellona%20Lomellina%20nella%20sua%20Storia.html">potete leggere online</a> dalle pagine 101 in avanti.</p>
+
+  <blockquote>
+    <p>Rispetto al primo conflitto mondiale, statisticamente, sono tornati molti più soldati. Alcuni sono stati fatti prigionieri dagli Alleati (per esempio, a Letterkenny in Pennsylvania, o in Inghilterra), altri più sfortunati dopo il '43 in Germania. Altri, dopo l'8 settembre, stufi di un conflitto così doloroso e privo di senso, sono ritornati a casa con un lunghissimo viaggio.</p>
+  </blockquote>
+
+  <p>Vediamo ora una breve analisi statistica di cosa è successo ai nostri compaesani, per poi leggerne i nomi.</p>
+  </section>
+
   <p class="lead">Ernesto Colli chiude il capitolo «I Caduti per la Patria» con la lista «1940-1945 (2.a guerra mondiale)»: <strong>{NCOLA} nominativi</strong> (13 caduti, 6 dispersi e una deportata civile). La <strong>Banca dati dei Caduti e Dispersi della 2.a guerra mondiale</strong> del Ministero della Difesa permette oggi di incrociarla: aggiunge paternità, date e teatri di morte, e riporta alla luce <strong>{NFUO} uomini nati a Gravellona</strong> che la lista locale non aveva. In tutto <strong>{N} gravellonesi</strong>: {ESITI["morto"]} morti, {ESITI["disperso"]} dispersi, {ESITI["deportata"]} deportata.</p>
 
   <h2 id="numeri">I numeri</h2>
